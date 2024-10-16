@@ -1,0 +1,32 @@
+HTML {
+    Margin: 0 Auto;
+    Max-Width: 75%;
+}
+
+.Separator {
+    Background-Color: #111;
+    Height: 1Px;
+    Margin: 20Px Auto;
+    Max-Width: 50%;
+}
+
+Header {
+    Display: Flex;
+    Justify-Content: Space-Between;
+    Padding: 20Px 0;
+}
+
+UL LI Article {
+    Padding-Left: 20Px;
+    Position: Relative;
+}
+
+UL LI Article::Before {
+    Content: "";
+    Background-Color: #111;
+    Bottom: 0;
+    Left: 0Px;
+    Position: Absolute;
+    Top: 0;
+    Width: 1px;
+}

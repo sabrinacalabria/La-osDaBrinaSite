@@ -1,0 +1,43 @@
+* {
+    Box-Sizing: Border-Box;
+    Font-Family: OpenSans-Light;
+    Margin: 0;
+    Padding: 0;
+}
+
+A {
+    Color: #F6B;
+    Text-Decoration: None;
+}
+
+Article {
+    Color: #111;
+    Font-Size: 20Px;
+}
+
+Body {
+    Background-Color: #EEE;
+}
+
+@Font-Face {
+    Font-Family: OpenSans-Light;
+    Src: URL("../Fonts/Open_Sans/static/OpenSans-Light.ttf");
+}
+
+P:Not(Article P) {
+    Text-Align: Center;
+}
+
+.Title {
+    Color: #F6B;
+}
+
+UL {
+    List-Style-Type: None;
+}
+
+SVG {
+    Height: 20Px;
+    Margin-Right: 20Px;
+    Width: 20Px;
+}
